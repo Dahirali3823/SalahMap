@@ -13,7 +13,7 @@ big cloud data - https://www.bigdatacloud.com/free-api/free-reverse-geocode-to-c
 
 folium  - overlays and shi https://python-visualization.github.io/folium/latest/index.html
 
-https://prayer-time-api.vercel.app/ (reverse engineer/try to uder)
+
 
 like this but using google maps + https://thetruesize.com/#/aboutModal
 
