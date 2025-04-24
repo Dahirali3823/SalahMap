@@ -1,62 +1,27 @@
 # SalahMap
-
-![SalahMap](https://img.shields.io/badge/SalahMap-1.0.0-brightgreen)
-![Next.js](https://img.shields.io/badge/Next.js-15.2.3-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-
-## 📍 Overview
-
-**SalahMap** is an interactive web application that displays Salah (prayer) times on a world map. Users can search by city and country or drag a map marker to instantly view prayer times for any location worldwide.
-
-## 🌟 Features
-
-- 🗺 **Interactive Map Interface** – Drag markers to get live Salah times  
-- 🔍 **Location Search** – Find prayer times by city, state, and country  
-- 📱 **Responsive Design** – Optimized for desktop and mobile  
-- 🕒 **Real-Time Updates** – Fetches accurate prayer times for the selected location  
-- 🌐 **Visual Time Zones** – Color-coded regions show time zone differences  
-- 🎨 **Clean UI** – Simple, intuitive, and user-friendly interface  
-
-##  Demo
-
-Check out the live demo:  
-👉 [SalahMap Live App](https://salah-time-map-dahirali3823-dahir-alis-projects.vercel.app/)
-
-![SalahMap Screenshot](/salah-time-map/public/salahmap-screenshot.png)
-
-## 🛠️ Technologies Used
-
-- **Frontend**: [Next.js 15](https://nextjs.org/), [React](https://reactjs.org/), [TailwindCSS](https://tailwindcss.com/)  
-- **APIs**: [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview), [Aladhan Prayer Times API](https://aladhan.com/prayer-times-api)  
-- **Deployment**: [Vercel](https://vercel.com/)
+Website showing the Map of salah times across the world
 
 
+Stuff needed for this website
 
-## 🚀 Usage
+- Be able to see current salah/time for any location
+- See the whole map and their respective salah and time
+- be able to print salah time for day of any location (enter location -> get table) 
 
-### Map Interaction
+aladahan api
+big cloud data - https://www.bigdatacloud.com/free-api/free-reverse-geocode-to-city-api#getStarted
 
-- **Draggable Marker**: Move the marker on the map to any location. Clicking it fetches and displays the corresponding prayer times.  
-- **Location Search**: Enter the city, state, and country in the input fields and click search to get Salah times in a table view.
+folium  - overlays and shi https://python-visualization.github.io/folium/latest/index.html
 
-### Prayer Time Processing
+https://prayer-time-api.vercel.app/ (reverse engineer/try to uder)
 
-- Prayer times are retrieved using the [Aladhan API](https://aladhan.com/prayer-times-api).  
-- If coordinates are selected, the **by latitude and longitude** endpoint is used.  
-- Otherwise, it defaults to the **by city,state and country** endpoint.
+like this but using google maps + https://thetruesize.com/#/aboutModal
 
-## 📚 API Reference
 
-**SalahMap** uses the following Aladhan API endpoints:
+need to try to reverse geocode coordinates when marker is clicked and get salah times - Done
 
-- **By City**:  
-  `https://api.aladhan.com/v1/timingsByCity`
+probably need to implement date in js to ensure api is using correct date - DONE 
 
-- **By Coordinates**:  
-  `https://api.aladhan.com/v1/timings`
+edit marker to like like a pin
 
-Responses include precise prayer timings and location metadata, which are parsed and displayed in the app.
-
-## 🚀 Deployment
-
-This project is deployed via [Vercel](https://vercel.com/).
+be able to download salah times via marker or form aladhan api should do 
