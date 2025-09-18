@@ -12,7 +12,6 @@
 
 - 🗺 **Interactive Map Interface** – Drag markers to get live Salah times  
 - 🔍 **Location Search** – Find prayer times by city, state, and country  
-- 📱 **Responsive Design** – Optimized for desktop and mobile  
 - 🕒 **Real-Time Updates** – Fetches accurate prayer times for the selected location  
 - 🌐 **Visual Time Zones** – Color-coded regions show time zone differences  
 - 🎨 **Clean UI** – Simple, intuitive, and user-friendly interface  
